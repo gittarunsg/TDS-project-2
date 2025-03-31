@@ -19,20 +19,3 @@ Pillow
 
 # Time zones and date handling
 pytz 
-geopy
-
-# HTML parsing
-beautifulsoup4
-
-# Document processing
-
-
-# Environment management
-python-dotenv
-
-# XML processing
-lxml
-
-# Text processing
-fuzzywuzzy
-python-Levenshtein
