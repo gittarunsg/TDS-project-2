@@ -1,4 +1,3 @@
-# API and HTTP
 httpx
 requests
 fastapi
