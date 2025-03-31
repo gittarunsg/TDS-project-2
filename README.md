@@ -36,7 +36,7 @@ uv pip install -r requirements.txt
 ### **4. Set Up Environment Variables**
 Create a `.env` file in the project root and add the necessary environment variables:
 ```env
-AIPROXY_TOKEN=your_openai_api_key
+AIPROXY_TOKEN=eyJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6IjIzZjIwMDI5MzlAZHMuc3R1ZHkuaWl0bS5hYy5pbiJ9.XeLkM9gcsp0jO4OpZWqCueIL0UUzYpDJLsOtY1ZJx7A
 ```
 
 ### **5. Run the Application**
