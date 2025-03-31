@@ -1,6 +1,17 @@
-httpx
-requests
-fastapi
-uvicorn
-python-multipart
-pandas 
+# Core API requirements (keep these)
+fastapi==0.109.2
+uvicorn==0.27.0
+python-multipart==0.0.6
+# Lightweight HTTP client (choose one)
+httpx==0.27.0
+# OR requests==2.31.0  # but httpx is more modern
+# Only include data processing if absolutely needed
+numpy==1.26.4  # 20MB compressed
+pandas==2.2.1   # 30MB compressed - only if essential
+# Remove these unless critical:
+# scikit-learn  # ~150MB
+# scipy         # ~100MB 
+# pytz          # Use zoneinfo from stdlib instead
+# geopy         # ~15MB
+# Pillow        # ~25MB
+# PyPDF2        # ~10MB
