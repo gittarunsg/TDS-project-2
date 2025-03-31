@@ -4,18 +4,4 @@ requests
 fastapi
 uvicorn
 python-multipart
-
-# Data processing
-numpy
-scikit-learn
-scipy 
-pandas
-python-dateutil  # Fixed: removed incorrect .post0 suffix
-six
-tzdata
-
-# Image handling
-Pillow
-
-# Time zones and date handling
-pytz 
+pandas 
